@@ -1,0 +1,50 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://cmiya.github.io/spokenweb-tutorial-cmiya/atwood-test/canvas-1/canvas/PerformanceLabels.json",
+  "type": "AnnotationPage",
+  "label": "PerformanceLabels",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://cmiya.github.io/spokenweb-tutorial-cmiya/atwood-test/canvas-1/canvas/PerformanceLabels-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "moving chairs",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://cmiya.github.io/spokenweb-tutorial-cmiya/atwood-test/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "151.146237,154.490181"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://cmiya.github.io/spokenweb-tutorial-cmiya/atwood-test/canvas-1/canvas/PerformanceLabels-annotation-1.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "laughter",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://cmiya.github.io/spokenweb-tutorial-cmiya/atwood-test/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "204.916846,205.719392"
+        }
+      }
+    }
+  ]
+}

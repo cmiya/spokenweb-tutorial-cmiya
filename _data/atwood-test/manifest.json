@@ -23,6 +23,14 @@
         "id": "https://cmiya.github.io/spokenweb-tutorial-cmiya/atwood-test/canvas-1/canvas",
         "type": "Canvas",
         "duration": 3586.0,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://cmiya.github.io/spokenweb-tutorial-cmiya/atwood-test/canvas-1/canvas/PerformanceLabels.json",
+            "label": "PerformanceLabels"
+          }
+        ],
         "items": [
           {
             "id": "https://cmiya.github.io/spokenweb-tutorial-cmiya/atwood-test/canvas-1/paintings",
