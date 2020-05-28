@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://cmiya.github.io/spokenweb-tutorial-cmiya/atwood-test/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Atwood Test" ] },
+    "homepage": [
+      {
+        "id": "",
+        "type": "Text",
+        "label": { "en": [ "Home page for Atwood Test" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "",
+        "type": "Agent",
+        "label": { "en": [ "" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://cmiya.github.io/spokenweb-tutorial-cmiya/atwood-test/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 3586.0,
+        "items": [
+          {
+            "id": "https://cmiya.github.io/spokenweb-tutorial-cmiya/atwood-test/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://cmiya.github.io/spokenweb-tutorial-cmiya/atwood-test/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://montreal.spokenweb.ca/wp-content/uploads/2011/01/margaret_atwood_i006-11-008.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                  "duration": 3586.0
+                },
+                "target": "https://cmiya.github.io/spokenweb-tutorial-cmiya/atwood-test/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
